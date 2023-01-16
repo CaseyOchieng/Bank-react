@@ -1,17 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+// import "semantic-ui-css"
 
-function App(prop) {
+function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src='src/logo.svg'className="logo"  alt="logo" />
-      </header>
+    <div className="ui raise segment">
+      <div className='header-text'>
+        <h2>The Royal Bank of Flatiron</h2>
+      </div>
+     
+      
     </div>
   );
 }
-
-
-
 
 export default App;
