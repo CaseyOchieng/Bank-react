@@ -11,7 +11,7 @@ export default function NewItemForm() {
                 <input placeholder="Category..." className="text-input" id="category"></input>
                 <input value="0" type="number" id="amount"></input>
             </div>
-            <button><FontAwesomeIcon id="fa-plus" icon={faPlus}></FontAwesomeIcon> Add Transaction</button>
+            <button><FontAwesomeIcon id="fa-plus" icon={faPlus}></FontAwesomeIcon> Add</button>
         </form>
     )
 }
