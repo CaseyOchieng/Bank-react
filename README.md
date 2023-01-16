@@ -29,7 +29,7 @@ browser to verify that your backend is working before you proceed!.
 
 ## Endpoints
 
-The base URL for your backend is: `http://localhost:8001`
+The base URL for your backend is: `http://localhost:6003`
 
 ## Core Deliverables
 
