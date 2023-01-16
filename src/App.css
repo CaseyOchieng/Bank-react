@@ -21,9 +21,8 @@ body {
   padding: 5px;
 }
 .header-text{
-  background: #081B4B;
+  background: orange;
   color: white;
-  /* margin: 2px 5px; */
   border-radius: 10px;
   padding: 1px;
 }
@@ -111,6 +110,6 @@ td{
   background: #D6DCEA;
 }
 tr:hover{
-  color: green;
+  color: orange;
   font-weight: 600;
 }

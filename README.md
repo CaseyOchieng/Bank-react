@@ -3,9 +3,7 @@
 Welcome to the Bank of Flatiron, where you can trust us with all your financial
 data! Use the below gif as an example of how the app should function.
 
-![demo](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-code-challenge-bank-of-flatiron/demo.gif)
 
-> To view in VSCode, right click on the README.md file and select "Open Preview".
 
 ## Instructions
 
@@ -22,16 +20,12 @@ setting up the application.
 After forking the project:
 
 1. Run `npm install` in your terminal.
-2. Run `npm run server`. This will run your backend on port `8001`.
+2. Run `npm run-script`. This will run your backend on port `8001`.
 3. In a new terminal, run `npm start`. This will run your React app on port `8000`.
 
 Make sure to open
 [http://localhost:8001/transactions](http://localhost:8001/transactions) in the
-browser to verify that your backend is working before you proceed!
-
-The app uses [Semantic UI](https://semantic-ui.com/) for styling. If you see any
-unfamiliar classNames on some components, don't sweat! That's coming from
-Semantic UI and you shouldn't need to touch it.
+browser to verify that your backend is working before you proceed!.
 
 ## Endpoints
 
