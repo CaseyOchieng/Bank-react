@@ -4,7 +4,7 @@ import TransactionItem from "./TransactionItem"
 function Transactions() {
     const [transactions, setTransactions] = useState([])
     useEffect(() => {
-        fetch("http://localhost:6001/transactions")
+        fetch("https://api.npoint.io/fe0067edddb43c4a354a/transactions")
             .then(r => r.json())
             .then(transc => setTransactions(transc))
             .catch(err => console.log(err))
